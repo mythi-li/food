@@ -1,0 +1,74 @@
+/* Add styles for the home page */
+
+body {
+    background-image: url('homeee_background.jpg'); /* Replace with the path to your home background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0; /* Remove default body margin */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Set the body height to cover the viewport */
+  }
+  
+  header {
+    text-align: center;
+    padding: 1em;
+    background: none;
+  }
+  
+  header h1 {
+    color: #faf5f5; /* Text color for the header */
+    font-size: 7em;
+    font-family: 'Pacifico', cursive; /* Apply the 'Pacifico' font */
+
+  }
+  
+  nav {
+    margin-top: 10px;
+  }
+  
+  .nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-list li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .nav-list a {
+    text-decoration: none;
+    color: #f2eeee;
+    font-weight: bold;
+    font-size: 3em;
+  }
+  
+  .main-content {
+    padding: 20px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1em;
+  }
+  
+  #home .animated-image {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  

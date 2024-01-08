@@ -1,0 +1,78 @@
+/* Add styles for the about page */
+
+body {
+    background-image: url('abo_background.jpg'); /* Replace with the path to your about background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0; /* Remove default body margin */
+  }
+  
+  header {
+    text-align: center;
+    padding: 1em;
+    background: none;
+  }
+  
+  header h1 {
+    color: #f7f4f4; /* Text color for the header */
+  }
+  nav {
+    margin-top: 10px;
+  }
+  
+  .nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-list li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .nav-list a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .main-content {
+    padding: 20px;
+    text-align: center; /* Center text */
+  }
+  
+  .image-container {
+    margin: 0 auto; /* Center the image */
+  }
+
+  
+  
+  .slide-in-image {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    animation: slideIn 2s ease-in-out;
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .category {
+    text-align: center; /* Center the category text */
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1em;
+  }
+  
